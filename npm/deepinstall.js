@@ -48,7 +48,7 @@ async.series([
           }
           break;
         case 'pnpm':
-          command = 'pnpm install --prod';
+          command = 'pnpm install --ignore-workspace --prod';
           break;
         default:
           command = pm + ' install --no-audit --production';
