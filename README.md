@@ -50,6 +50,7 @@ List of supported code generators:
 | Shell | Httpie |
 | Shell | wget |
 | Swift | URLSession | 
+| QCObjects | QCObjects | 
 ## Table of contents 
 
 - [postman-code-generators

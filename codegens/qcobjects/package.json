@@ -1,0 +1,41 @@
+{
+  "name": "@postman/codegen-qcobjects",
+  "version": "0.0.1",
+  "description": "Converts Postman SDK Requests to QCObjects code snippet",
+  "main": "index.js",
+  "com_postman_plugin": {
+    "type": "code_generator",
+    "lang": "qcobjects",
+    "variant": "serviceLoader",
+    "syntax_mode": "javascript"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm i && node npm/test.js",
+    "test-lint": "node npm/test-lint.js",
+    "test-newman": "node npm/test-newman.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Postman Labs <help@getpostman.com>",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/postmanlabs/code-generators/tree/master/codegens/qcobjects",
+  "dependencies": {
+    "postman-collection": "3.6.9",
+    "url":"0.11.0",
+    "qcobjects-sdk":"2.3.30",
+    "qcobjects":"2.3.69",
+    "qcobjects-cli":"2.3.47"
+  },
+  "devDependencies": {
+    "follow-redirects": "1.13.1"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
