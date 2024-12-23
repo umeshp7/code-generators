@@ -197,7 +197,7 @@ self = module.exports = {
       }
       snippet += `${parseBody(request.toJSON(), options.trimRequestBody, contentType, options.indentCount)}\n`;
       snippet += 'response = https.request(request)\n';
-      snippet += 'puts response.read_body\n';
+      snippet += 'puts response.read_body';
     }
     else {
       snippet += 'http = Net::HTTP.new(url.host, url.port);\n';
@@ -226,7 +226,7 @@ self = module.exports = {
       }
       snippet += `${parseBody(request.toJSON(), options.trimRequestBody, contentType, options.indentCount)}\n`;
       snippet += 'response = http.request(request)\n';
-      snippet += 'puts response.read_body\n';
+      snippet += 'puts response.read_body';
     }
 
     return callback(null, snippet);

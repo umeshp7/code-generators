@@ -387,7 +387,7 @@ self = module.exports = {
     codeSnippet += `${indent}print(String(data: data, encoding: .utf8)!)\n`;
     codeSnippet += options.includeBoilerplate ? `${indent}exit(EXIT_SUCCESS)\n` : '';
     codeSnippet += '}\n\n';
-    codeSnippet += 'task.resume()\n';
+    codeSnippet += 'task.resume()' + options.includeBoilerplate ? '\n' : '';
     codeSnippet += options.includeBoilerplate ? 'dispatchMain()\n' : '';
 
     return callback(null, codeSnippet);

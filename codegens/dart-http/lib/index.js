@@ -216,7 +216,7 @@ self = module.exports = {
       }
       headerSnippet += 'import \'package:http/http.dart\' as http;\n\n';
       headerSnippet += 'void main() async {\n';
-      footerSnippet = '}\n';
+      footerSnippet = '}';
     }
 
     // The following code handles multiple files in the same formdata param.

@@ -218,7 +218,7 @@ self = module.exports = {
       snippet += indentString + 'curl_slist_free_all(headers);\n';
     }
     snippet += '}\n';
-    snippet += 'curl_easy_cleanup(curl);\n';
+    snippet += 'curl_easy_cleanup(curl);';
     (options.includeBoilerplate) &&
     (snippet = indentString + snippet.split('\n').join('\n' + indentString));
     callback(null, headerSnippet + snippet + footerSnippet);

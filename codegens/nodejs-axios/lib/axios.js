@@ -136,7 +136,7 @@ function makeSnippet (request, indentString, options) {
     snippet += indentString.repeat(2) + 'console.log(error);\n';
     snippet += indentString + '}\n';
     snippet += '}\n\n';
-    snippet += 'makeRequest();\n';
+    snippet += 'makeRequest();';
   }
   else {
     snippet += 'axios.request(config)\n';
@@ -145,7 +145,7 @@ function makeSnippet (request, indentString, options) {
     snippet += '})\n';
     snippet += '.catch((error) => {\n';
     snippet += indentString + 'console.log(error);\n';
-    snippet += '});\n';
+    snippet += '});';
   }
 
   return snippet;
