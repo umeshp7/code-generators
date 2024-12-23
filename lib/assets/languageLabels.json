@@ -20,6 +20,7 @@
   "ocaml": "OCaml",
   "shell": "Shell",
   "dart": "Dart",
+  "kotlin": "Kotlin",
   "r": "R",
   "rust": "Rust"
 }
