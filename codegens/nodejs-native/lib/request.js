@@ -34,13 +34,6 @@ function makeSnippet (request, indentString, options) {
   else {
     snippet += `${nativeModule} = require('${nativeModule}');\n`;
   }
-  if (options.ES6_enabled) {
-    snippet += 'const ';
-  }
-  else {
-    snippet += 'var ';
-  }
-  snippet += 'fs = require(\'fs\');\n\n';
   if (_.get(request, 'body.mode') && request.body.mode === 'urlencoded') {
     if (options.ES6_enabled) {
       snippet += 'const ';
