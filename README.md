@@ -48,6 +48,7 @@ List of supported code generators:
 | Rust | Reqwest |
 | Ruby | Net:HTTP |
 | Shell | Httpie |
+| Shell | Apache Bench |
 | Shell | wget |
 | Swift | URLSession | 
 ## Table of contents 

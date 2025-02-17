@@ -30,6 +30,9 @@
 ### ruby
   1. [ruby](https://www.ruby-lang.org/en/downloads)
 
+### shell-apache-bench
+  1. [apache-bench](https://httpd.apache.org/docs/2.4/programs/ab.html)
+
 ### shell-httpie
   1. [httpie](https://httpie.org/#installation)
 
