@@ -17,15 +17,15 @@
               "key": "single file",
               "value": "",
               "type": "file",
-              "src": "/Users/vishalkumar.shingala@postman.com/pm/postman-code-generators/dummyFile1.txt"
+              "src": "/Users/saksham.gupta@postman.com/Desktop/postman/postman-code-generators/dummyFile1.txt"
             },
             {
               "key": "multiple files",
               "value": "",
               "type": "file",
               "src": [
-                "/Users/vishalkumar.shingala@postman.com/pm/postman-code-generators/dummyFile2.txt",
-                "/Users/vishalkumar.shingala@postman.com/pm/postman-code-generators/dummyFile3.txt"
+                "/Users/saksham.gupta@postman.com/Desktop/postman/postman-code-generators/dummyFile2.txt",
+                "/Users/saksham.gupta@postman.com/Desktop/postman/postman-code-generators/dummyFile3.txt"
               ]
             }
           ]
@@ -55,7 +55,7 @@
               "key": "binary file",
               "value": "",
               "type": "file",
-              "src": "/Users/vishalkumar.shingala@postman.com/pm/postman-code-generators/dummyBinaryFile"
+              "src": "/Users/saksham.gupta@postman.com/Desktop/postman/postman-code-generators/dummyBinaryFile"
             }
           ]
         },
