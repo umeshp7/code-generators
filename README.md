@@ -33,6 +33,7 @@ List of supported code generators:
 | NodeJs | Axios | 
 | NodeJs | Native |
 | NodeJs | Request |
+| NodeJs | SuperAgent |
 | NodeJs | Unirest |
 | Objective-C| NSURLSession|
 | OCaml | Cohttp | 
