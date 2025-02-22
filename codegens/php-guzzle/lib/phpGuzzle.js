@@ -163,7 +163,7 @@ function getSnippetFooterSync (includeRequestOptions) {
     'echo $res->getBody();\n';
   }
   return '$res = $client->send($request, $options);\n' +
-  'echo $res->getBody();\n';
+  'echo $res->getBody();';
 }
 
 /**
@@ -179,7 +179,7 @@ function getSnippetFooterAsync (includeRequestOptions) {
     'echo $res->getBody();\n';
   }
   return '$res = $client->sendAsync($request, $options)->wait();\n' +
-  'echo $res->getBody();\n';
+  'echo $res->getBody();';
 }
 
 /**

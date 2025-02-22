@@ -98,7 +98,7 @@ function makeSnippet (request, indentString, options) {
   }
   snippet += indentString + 'if (error) throw new Error(error);\n';
   snippet += indentString + 'console.log(response.body);\n';
-  snippet += '});\n';
+  snippet += '});';
   return snippet;
 }
 

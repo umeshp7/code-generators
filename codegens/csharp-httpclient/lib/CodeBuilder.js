@@ -70,7 +70,7 @@ class CodeBuilder {
       extra = '';
     }
     this.currentIndentCount--;
-    this.snippet += this.indentation + '}' + extra + this.newLineChar;
+    this.snippet += this.indentation + '}' + extra;
   }
 
   /**

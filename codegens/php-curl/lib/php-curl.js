@@ -178,7 +178,7 @@ self = module.exports = {
     snippet += '));\n\n';
     snippet += '$response = curl_exec($curl);\n\n';
     snippet += 'curl_close($curl);\n';
-    snippet += 'echo $response;\n';
+    snippet += 'echo $response;';
 
     return callback(null, snippet);
   }

@@ -105,7 +105,7 @@ function makeSnippet (request, indentString, options) {
   }
   snippet += indentString.repeat(2) + 'if (res.error) throw new Error(res.error); \n';
   snippet += indentString.repeat(2) + 'console.log(res.raw_body);\n';
-  snippet += indentString + '});\n';
+  snippet += indentString + '});';
 
   return snippet;
 }

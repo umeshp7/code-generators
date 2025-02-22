@@ -92,7 +92,7 @@ function makeSnippet (request, indentString, options) {
     });
   }
   snippet += parseRequest.parseBody(request, indentString, options.trimRequestBody);
-  snippet += indentString + '.asString();\n';
+  snippet += indentString + '.asString();';
 
   return snippet;
 }
